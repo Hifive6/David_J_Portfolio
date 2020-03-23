@@ -1,0 +1,53 @@
+ .navbar {
+    background-color: #3e6d86;
+    color: aliceblue;
+}
+.nav-link, .navbar-brand {
+    color: aliceblue;
+}
+
+.navcolor.scrolled {
+    background-color: white;
+}
+
+.navOrange.scrolled {
+    background-color: orange;
+}
+
+.avatarSize {
+    margin-top: 75px;
+    width: 200px;
+}
+
+img {
+    width: 500px;
+    /* border: 1px solid black;
+    padding: 5px; */
+}
+
+.view:hover {
+    opacity: .5;
+    transition: .3s ease-in;
+    background-color: #3e6d86
+}
+
+
+
+.firstDivImage {
+    color: aliceblue;
+    background-image: url(https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .9;
+}
+
+.secondDiv {
+    background-color: #b7c6ce;
+    height: 900px;
+}
+
+.thirdDiv {
+    background-color: #3e6d86;
+}
