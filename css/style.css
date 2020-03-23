@@ -6,13 +6,6 @@
     color: aliceblue;
 }
 
-.navcolor.scrolled {
-    background-color: white;
-}
-
-.navOrange.scrolled {
-    background-color: orange;
-}
 
 .avatarSize {
     margin-top: 75px;
@@ -21,14 +14,48 @@
 
 img {
     width: 500px;
-    /* border: 1px solid black;
-    padding: 5px; */
+    
 }
 
-.view:hover {
+.image {
+    opacity: 1;
+  display: block;
+  /* width: 100%; */
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+/* .view:hover {
     opacity: .5;
     transition: .3s ease-in;
     background-color: #3e6d86
+} */
+
+.displayText {
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.view:hover .image {
+    opacity: .3;
+}
+
+.view:hover .displayText {
+    opacity: 1;
+}
+
+.text {
+    /* background-color: #3e6d86; */
+    color: white;
+    font-size: 22px;
+    /* padding: 16px 32px */
 }
 
 
