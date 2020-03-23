@@ -6,7 +6,9 @@
     color: aliceblue;
 }
 
-
+.lead {
+    font-size: 30px;
+}
 .avatarSize {
     margin-top: 75px;
     width: 200px;
@@ -26,11 +28,7 @@ img {
   backface-visibility: hidden;
 }
 
-/* .view:hover {
-    opacity: .5;
-    transition: .3s ease-in;
-    background-color: #3e6d86
-} */
+
 
 .displayText {
     transition: .5s ease;
@@ -70,9 +68,10 @@ img {
     opacity: .9;
 }
 
-.secondDiv {
-    background-color: #b7c6ce;
-    height: 900px;
+.secondDiv, .firstDivImage{
+    background-color: #3e6d86;
+    height: 600px;
+    color: aliceblue;
 }
 
 .thirdDiv {
