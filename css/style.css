@@ -9,6 +9,11 @@
 .favicon {
     width: 50px;
 }
+
+.moveText{
+    padding-top: 100px;
+    /* margin-top: 200px; */
+}
 .avatarSize {
     margin-top: 75px;
     width: 200px;
