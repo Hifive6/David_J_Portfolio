@@ -8,9 +8,9 @@
 //     });
 //   });
 
-$(function () {
-    $(document).scroll(function () {
-        var $nav = $(".scrollNav");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-      });
-  });
+// $(function () {
+//     $(document).scroll(function () {
+//         var $nav = $(".scrollNav");
+//         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+//       });
+//   });
